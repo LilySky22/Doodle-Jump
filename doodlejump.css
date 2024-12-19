@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff;  /* Light background to balance with the game’s background */
+}
+
+/* Canvas Styling */
+#board {
+    border: 4px solid #444; /* Slightly darker border to make the canvas stand out */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Soft shadow for a clean, polished look */
+    background-image: url("./doodlejumpbg.png");  /* Keep the original game background */
+    background-size: cover; /* Ensures background fills the whole canvas */
+    background-position: center; /* Center the background image */
+}
+
+/* Score Styling */
+#scoreboard {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: rgb(0, 0, 0); /* White text for the score */
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Black outline effect */
+}
+
+/* Game Over Styling */
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);  /* Change to red color */
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Optional: shadow for contrast */
+}
+
+
+/* Restart Text Styling */
+.restartText {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0); /* White text */
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Black outline for readability */
+}
+
+/* Game Title Styling */
+h1 {
+    color: #2c3e50;  /* Dark gray text for the title */
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+/* General Text Styling */
+#scoreboard, #gameOver, .restartText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+/* Button Styling */
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #2ecc71; /* Fresh green for a clean, modern look */
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: background-color 0.3s, transform 0.2s ease-out;
+}
+
+button:hover {
+    background-color: #000000; /* Darker green when hovered */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+button:active {
+    transform: translateY(1px); /* Button clicks with a slight dip */
+}
