@@ -21,6 +21,7 @@ let doodler = {
     isJumping: false
 }
 
+
 // Physics
 let velocityX = 0;
 let velocityY = -6; // start with a moderate jump speed
