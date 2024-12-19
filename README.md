@@ -1,7 +1,7 @@
 # Doodle-Jump
 
 ## I followed this tutorial: https://www.youtube.com/watch?v=pHFtOYU-a20&list=PLcFgJ5yCu0tqVA7FZqw3tWggXOWtI3Tf8&index=4&t=2s&pp=gAQBiAQB
-## demo:
+## demo: https://profound-gnome-d7b48d.netlify.app/
 
 ### Changed:
 #### I have adjusted the speed so it should gradually get faster
